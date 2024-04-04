@@ -1,0 +1,13 @@
+version: '3'
+services:
+  iflow:
+    image: crabyao/iflow:stable
+    container_name: iflow
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ./result:/opt/iFlow/result
+    stdin_open: true
+    tty: true
+    environment:
+      - DISPLAY=$DISPLAY
+    command: /bin/bash
