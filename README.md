@@ -10,7 +10,7 @@
    * 源镜像地址为iedaopensource/iflow
    * 微调后在centos7环境下能够良好运行的版本crabyao/ifow:stable
    * 使用`docker-compose up -d`自动获取镜像和运行容器
-   * 后续基于**从dockerhub获取**版本步骤操作
+   * 后续基于**从dockerhub获取crabyao/iflow:stable**版本步骤操作
 
 ### 运行容器
 
